@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <h1>Conference Registration Form</h1>
+    
+    <form action="">
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br>
+        <label for="emailadd">Email Address:</label><br>
+        <input type="text" id="emailadd" name="emailadd" placeholder="Enter your email address" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="18" max="99" placeholder="18" required><br>
+
+        <br>
+
+        <label for="gender">Gender:</label>
+        <br><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <br><br>
+        <label for="residence">Country of Residence:</label>
+        <select name="residence" id="residence">
+            <option value="malay">Malaysia</option>
+            <option value="thai">Thailand</option>
+            <option value="indo">Indonesia</option>
+            <option value="sg">Singapore</option>
+        </select>
+
+        <br><br>
+        <label for="aot">Area of Interest:</label><br>
+        <br>
+        <input type="checkbox" id="sad" name="aot" value="Software Development">
+        <label for="sad">Software Development</label><br>
+        <input type="checkbox" name="aot" id="ds" value="Data Science">
+        <label for="ds">Data Science</label><br>
+        <input type="checkbox" name="aot" id="cybersec" value="Cybersecurity">
+        <label for="cybersec">Cybersecurity</label><br>
+        <input type="checkbox" id="ai" name="aot" value="Artificial Intelligence">      
+        <label for="ai">Artificial Intelligence</label>
+
+        <br><br>
+        <p>Experience Level:</p>
+        <input type="radio" name="exp_lev" id="beg" value="Beginner">
+        <label for="beg">Beginner</label><br>
+        <input type="radio" name="exp_lev" id="imd" value="Intermediate">
+        <label for="imd">Intermediate</label><br>
+        <input type="radio" name="exp_lev" id="adv" value="Advanced">
+        <label for="adv">Advanced</label>
+
+        <br><br>
+        <label for="comments">Comments or Questions:</label><br>
+        <textarea name="Comments" id="comments" rows="5" cols="50" placeholder="Any comments or questions?"></textarea><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
